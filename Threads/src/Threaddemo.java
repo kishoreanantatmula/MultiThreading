@@ -8,6 +8,8 @@ public class Threaddemo extends Thread {
 		for(int i = 0;i<5;i++)
 		{
 			
+			//Lets see if Child Thread or Main Thread runs first
+			
 			try {
 				Thread.sleep(1000);
 				System.out.println("Child Thread");
